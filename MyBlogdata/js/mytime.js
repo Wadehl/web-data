@@ -1,6 +1,6 @@
 'use strict';
 //timeCounter
-    var div3 = document.getElementsByTagName("my:tag")[0];
+    var div3 = document.getElementsByTagName("mytag")[0];
  
         var timer = setInterval(fn, 1);//设置定时器，1毫秒跳动1次
  
