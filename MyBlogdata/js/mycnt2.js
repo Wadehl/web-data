@@ -29,12 +29,5 @@
                 millsec = "0" + millsec;
             }
  
-            // 输出
-            /*if (timeSum < 0) {
-                div3.innerHTML = "距离考研开始还有00天00小时00分00秒000毫秒";
-
-                clearInterval(timer);/* 清除定时器 
-                return;
-            } */
             div4.innerHTML = "距离上一次见面已经" + day + "天" + hour + "小时" + minu + "分" + sec + "秒";
         }
