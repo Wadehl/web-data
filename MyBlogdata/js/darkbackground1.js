@@ -1,4 +1,4 @@
-if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'{
+if (hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'){
 	var dark = false;
 	function universe() {
 		window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
