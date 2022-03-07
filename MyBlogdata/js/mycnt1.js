@@ -1,6 +1,6 @@
 'use strict';
 //timeCounter
-    var div3 = document.getElementsByTagName("cnt")[0];
+    var div4 = document.getElementsByTagName("cnt")[0];
  
         var timer = setInterval(fn, 1);//设置定时器，1毫秒跳动1次
  
@@ -36,5 +36,5 @@
                 clearInterval(timer);/* 清除定时器 
                 return;
             } */
-            div3.innerHTML = "距离上一次见面已经" + day + "天" + hour + "小时" + minu + "分" + sec + "秒";
+            div4.innerHTML = "距离上一次见面已经" + day + "天" + hour + "小时" + minu + "分" + sec + "秒";
         }
