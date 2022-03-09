@@ -1,8 +1,8 @@
 
   .night {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     transform: rotateZ(45deg);
   }
   
