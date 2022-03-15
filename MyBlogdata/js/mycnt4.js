@@ -7,7 +7,7 @@
         function fn() {
             //获取时间差：未来时间减去此刻的毫秒值
             var nowtime1 = new Date();
-            var former = new Date("2022/03/03 12:00:00");
+            var former = new Date("2021/07/30 22:00:00");
             var timeSum1 = nowtime1.getTime() - former.getTime();
  
             //根据时间差分别计算天数，小时数等，parseInt() 函数可解析一个字符串，并返回一个整数。
@@ -29,5 +29,5 @@
                 millsec1 = "0" + millsec1;
             }
  
-            div4.innerHTML = "距离上一次见面已经" + day1 + "天" + hour1 + "小时" + minu1 + "分" + sec1 + "秒";
+            div4.innerHTML = "吼吼!!原来我们已经在一起" + day1 + "天" + hour1 + "小时" + minu1 + "分" + sec1 + "秒啦！！！";
         }
