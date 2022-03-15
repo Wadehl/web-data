@@ -3,11 +3,11 @@ var OriginTitle = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
-        document.title ='_φ_(．．)  Studying...';
+        document.title ='(╯>д<)╯(˙³˙⁾扔出去';
         clearTimeout(titleTime);
     }
     else {
-        document.title = '٩꒰▽ ꒱³ 写完咯';
+        document.title = '(˘•ω•˘)ง(˙³˙⁾捡回来';
         titleTime = setTimeout(function () {
             document.title = OriginTitle;
         }, 2000);
