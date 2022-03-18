@@ -27,10 +27,10 @@ setInterval(() => {
       time[4] = nol(second);
     }
     if ((Number(time[2])<22) && (Number(time[2])>7)){
-      currentTimeHtml = "<div id='runtime'> time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      currentTimeHtml ="<img class='boardsign' src='' title='小吴加油!'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
     else{
-      currentTimeHtml = "<div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      currentTimeHtml ="<img class='boardsign' src='' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
     document.getElementById("workboard").innerHTML = currentTimeHtml;
   }, 1000);
