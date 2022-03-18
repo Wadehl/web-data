@@ -26,11 +26,11 @@ setInterval(() => {
     if (second > 0) {
       time[4] = nol(second);
     }
-    if ((Number(time[2])<22) && (Number(time[2])>7)){
+    /*if ((Number(time[2])<22) && (Number(time[2])>7)){
       currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/Kevin's%20Site-%E8%90%A5%E4%B8%9A%E4%B8%AD-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
     else{
       currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/badge/Kevin's%20Site-%E6%89%93%E7%83%8A%E4%BA%86-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
-    document.getElementById("workboard").innerHTML = currentTimeHtml;
+    document.getElementById("workboard").innerHTML = currentTimeHtml;*/
   }, 1000);
