@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3259644 */
+  src: url('//at.alicdn.com/t/font_3259644_y7fv306xan.woff2?t=1647694615863') format('woff2'),
+       url('//at.alicdn.com/t/font_3259644_y7fv306xan.woff?t=1647694615863') format('woff'),
+       url('//at.alicdn.com/t/font_3259644_y7fv306xan.ttf?t=1647694615863') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cat:before {
+  content: "\eb0b";
+}
+
+.icon-list-outline:before {
+  content: "\e64c";
+}
+
+.icon-vuesax-outline-home-2:before {
+  content: "\e674";
+}
+
+.icon-vuesax-outline-menu-board:before {
+  content: "\e69c";
+}
+
+.icon-vuesax-outline-archive:before {
+  content: "\e66f";
+}
+
+.icon-vuesax-outline-instagram:before {
+  content: "\e672";
+}
+
+.icon-outline-heart:before {
+  content: "\e67a";
+}
+
+.icon-outline-lovely:before {
+  content: "\e67b";
+}
+
+.icon-outline-user-tag:before {
+  content: "\e682";
+}
+
+.icon-outline-lock-circle:before {
+  content: "\e691";
+}
+
+.icon-vuesax-outline-task-square:before {
+  content: "\e69a";
+}
+
+.icon-vuesax-outline-task:before {
+  content: "\e69b";
+}
+
+.icon-chat1:before {
+  content: "\e675";
+}
+
+.icon-dog:before {
+  content: "\e600";
+}
+
+.icon-camera:before {
+  content: "\e698";
+}
+
+.icon-child:before {
+  content: "\e699";
+}
+
+.icon-music:before {
+  content: "\e69f";
+}
+
+.icon-jia:before {
+  content: "\e626";
+}
+
+.icon-diannao:before {
+  content: "\e627";
+}
+
+.icon-fenlei:before {
+  content: "\e628";
+}
+
+.icon-chat:before {
+  content: "\e75e";
+}
+
+.icon-icon_nav_search:before {
+  content: "\e618";
+}
+
+.icon-kebiao:before {
+  content: "\e83d";
+}

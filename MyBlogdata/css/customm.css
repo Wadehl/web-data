@@ -1,0 +1,276 @@
+@font-face{
+    font-family:'zc' ;  /* 字体名自定义即可 */
+    src:url('./ZCOOLKuaiLe-Regular.ttf') ; /* 字体文件路径 */
+    font-display : swap;
+  }
+
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+        /* background: var(--light_bg_color) */
+        background: rgba(255,255,255,.15)
+    }
+    
+#aside-content .card-widget{
+        /* background: var(--light_bg_color) */
+        background: rgba(255,255,255,.15)
+    }
+
+    
+    /* #web_bg {
+        background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+    } */
+    #nav.show{
+        background: rgba(0, 0, 0, 0.05)
+    }
+    
+    .layout > div:first-child:not(.recent-posts)
+    {
+        background: var(--light_bg_color);
+    }
+    
+    
+    #footer {
+        background: rgba(255,255,255,.15);
+        color: #000;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        backdrop-filter: saturate(100%) blur(5px)
+    }
+    
+    #article-container img{
+        margin: 0;
+    }
+
+    #footer::before {
+        background: rgba(255,255,255,.15)
+    }
+    
+    #footer #footer-wrap {
+        color: var(--font-color)
+    }
+    
+    #footer #footer-wrap a {
+        color: var(--font-color)
+    }
+
+
+    /*文字样式*/
+    #aside-content .card-info .author-info__name{
+        font-family: auto;
+        font-weight: bold;
+    }
+
+
+    #aside-content .card-info .author-info__description {
+        font-family:auto;
+      }
+
+    h1#site-title {
+        font-family: 'zc', 'FontAwesome', cursive;
+    }
+    
+
+    span#blog_name{
+        font-family: 'zc', 'FontAwesome', cursive;
+    }
+
+    a{
+        font-family: 楷体,'zc', 'FontAwesome', cursive;
+        font-weight: bold;
+        color: #4c4948;
+    }
+
+
+    span{
+        font-family: 楷体,'zc', 'FontAwesome', cursive;
+        font-weight: bold;
+    }
+
+    body{
+        font-family: 楷体,'zc', 'FontAwesome', cursive;
+        font-weight: bold;
+    }
+
+    mytag{
+        font-family: 'zc', cursive;
+        font-weight: bold;
+    }
+
+    cnt{
+        font-family: 楷体,'zc',cursive;
+        font-weight: bold;
+        color:#A9BFE3;
+        font-size: 30px;
+    }
+
+    #local-search .search-dialog .local-search-box input{
+        font-weight: bold;
+    }
+
+    #nav .site-page{
+        text-shadow: none !important;
+    }
+
+    cnt1{
+        font-family: 楷体,'zc',cursive;
+        font-weight: bold;
+    }
+
+    @media screen and (min-width:776px) {
+        #rightside button{
+            margin-right: 8px;
+        }
+        #rightside > div > button, #rightside > div > a{
+            margin-bottom: 5px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+        #rightside #rightside-config-hide{
+          transform: translate(55px, 0);
+        }
+    }
+
+    #operare_artitalk .at_button, #artitalk_main .at_button{
+        font-family: 楷体;
+        font-weight: bold;
+        background-color: white !important;
+        color:#A9BFE3 !important;
+        font-size: 16px !important;
+    }
+
+    #artitalk_main .shuoshuo_text {
+        font-weight: bold;
+    }
+
+    .v[data-class=v] .veditor{
+        font-weight: bold;
+    }
+
+    .v[data-class=v] .vheader input{
+        font-weight: bold;
+    }
+
+    #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel{
+        font-family: 楷体;
+        font-weight: bold !important;
+    }
+
+    .v[data-class=v] .vinfo button {
+        font-weight: bold;
+    }
+
+    .fa-add:before, .fa-plus:before {
+        content: "\2b"!important;
+    }
+    /*鼠标样式*/
+    /* 全局默认鼠标指针 
+    body,
+    html{
+    cursor: url('https://cdn.jsdelivr.net/gh/Wadehl/web-data/mouse/light/pointer.cur'),auto !important;
+    }*/
+
+    /* 鼠标样式 */
+    /*body {
+    cursor: url(https://cdn.jsdelivr.net/gh/Wadehl/web-data/mouse/light/pointer.cur),
+      default;
+    }
+    a,img {
+    cursor: url(https://cdn.jsdelivr.net/gh/Wadehl/web-data/mouse/light/link.cur),
+      default;
+    }*/
+
+    .card-widget.card-announcement {
+        background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/20200530181856.gif) !important;
+    }
+
+    #aside-content .card-info .author-info__description{
+        background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+    }
+
+
+    /*颜色修改*/
+    #nav #site-name{
+        color:#FFC0BE  !important;
+    }
+
+    .icon-outline-lovely:before{
+        color:red ;
+    }
+
+    .icon-jia:before{
+        color:darkorange;
+    }
+
+    .icon-vuesax-outline-archive:before{
+        color:lightseagreen;
+    }
+
+    .icon-child:before{
+        color:orangered;
+    }
+
+    .icon-outline-user-tag:before{
+        color:cornflowerblue;
+    }
+
+    .icon-dog:before{
+        color: #a9bfe3;
+    }
+
+    .icon-cat::before{
+        color:#ffc0be;
+    }
+
+    .icon-chat:before{
+        color:lightseagreen;
+    }
+
+    .icon-vuesax-outline-instagram:before{
+        color:orangered;
+    }
+
+    .icon-kebiao:before{
+        color:darkgoldenrod;
+    }
+
+    .icon-vuesax-outline-task-square:before{
+        color:cadetblue;
+    }
+
+    .icon-fenlei:before{
+        color:dodgerblue;
+    }
+
+    .fa-tags:before{
+        color:sandybrown;
+    }
+
+    .icon-music:before{
+        color:red;
+    }
+
+    .icon-outline-lock-circle:before{
+        color:crimson;
+    }
+
+    #nav a{
+        color: #777 !important;
+    }
+    .fa-search:before{
+        color:lightskyblue !important;
+    }
+
+    #nav.show{
+        background:transparent !important;
+    }
+
+    #nav{
+        font-size:1.4em !important;
+        height: 77px;
+    }
+
+    div#runtime{
+        color: #535150 !important;
+        background-color: transparent !important;
+    }
