@@ -242,7 +242,11 @@
         color:dodgerblue;
     }
 
-    .fa-tags:before{
+    /*.fa-tags:before{
+        color:sandybrown;
+    }*/
+
+    .icon-tag::before{
         color:sandybrown;
     }
 
