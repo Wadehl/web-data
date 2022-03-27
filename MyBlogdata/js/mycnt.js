@@ -16,18 +16,12 @@
             var hour1 = parseInt(timeSum1 / 1000 / 60 / 60 % 24);
             var minu1 = parseInt(timeSum1 / 1000 / 60 % 60);
             var sec1 = parseInt(timeSum1 / 1000 % 60);
-            var millsec1 = parseInt(timeSum1 % 1000);
  
             //问题处理：所有的时间小于10的时候，在前面自动补0，毫秒值要补双0（比如如，把 8 秒改成 08 秒）
             day1 = day1 < 10 ? "0" + day1 : day1;  //day小于10吗？如果小于，就补0；如果不小于，就是day本身
             hour1 = hour1 < 10 ? "0" + hour1 : hour1;
             minu1 = minu1 < 10 ? "0" + minu1 : minu1;
             sec1 = sec1 < 10 ? "0" + sec1 : sec1;
-            if (millsec1 < 10) {
-                millsec1 = "00" + millsec1;
-            } else if (millsec < 100) {
-                millsec1 = "0" + millsec1;
-            }
  
             div4.innerHTML = "吼吼!!原来我们已经在一起" + day1 + "天" + hour1 + "小时" + minu1 + "分" + sec1 + "秒啦！！！";
         }
