@@ -7,7 +7,7 @@
         function fn() {
             //获取时间差：未来时间减去此刻的毫秒值
             var nt = new Date();
-            var fm = new Date("2022/03/19 18:45:00");
+            var fm = new Date("2022/03/27 21:00:00");
             var timeSum2 = nt.getTime() - fm.getTime();
  
             //根据时间差分别计算天数，小时数等，parseInt() 函数可解析一个字符串，并返回一个整数。
