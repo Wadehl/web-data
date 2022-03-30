@@ -4470,7 +4470,7 @@
     }
 });
 function bot_ui_ini() {
-        var botui = new BotUI("hello-akilar");
+        var botui = new BotUI("hello-mashiro");
     botui.message.add({
       delay: 800,
       content: "Hello there!!"
