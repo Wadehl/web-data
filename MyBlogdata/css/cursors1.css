@@ -1,10 +1,10 @@
 /* 鼠标样式 */
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/Wadehl/web-data/MyBlogdata/mouse/light/pointer.cur),
+    cursor: url(https://jsdelivr.pai233.top/gh/Wadehl/web-data/MyBlogdata/mouse/light/pointer.cur),
       default;
   }
   a,
   img {
-    cursor: url(https://cdn.jsdelivr.net/gh/Wadehl/web-data/MyBlogdata/mouse/light/link.cur),
+    cursor: url(https://jsdelivr.pai233.top/gh/Wadehl/web-data/MyBlogdata/mouse/light/link.cur),
       default;
   }
