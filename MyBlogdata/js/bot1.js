@@ -4574,11 +4574,11 @@ function bot_ui_ini() {
       fourthpart = function() {
         botui.message.add({
           delay: 3000,
-          content: "'K','E','V','I','N' "
+          content: "'K','E','V','I','N' ----> 'V','E','N','K','I'"
         }).then(function() {
           botui.message.add({
             delay: 3000,
-            content: ",这几个英文字母都是和我女朋友英文名一模一样的哦!Days With Venki！——Venki就是我的小吴的英文名啦~"
+            content: "这几个英文字母都是和我女朋友英文名一模一样的哦!Days With Venki！——Venki就是我的小吴的英文名啦~"
           }).then(function() {
             botui.action.button({
               delay: 1500,
